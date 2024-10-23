@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <div class="cover-container">
+            <img id="cover-image" src="img.jpeg" alt="Album Cover" class="cover-image">
+        </div>
+        <h2 id="track-title">Track Title</h2>
+        <h3 id="track-artist">Track Artist</h3>
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="controls">
+            <button id="prev-btn" class="control-btn">⏮</button>
+            <button id="play-btn" class="control-btn">▶</button>
+            <button id="next-btn" class="control-btn">⏭</button>
+            <button id="repeat-btn">🔁</button>
+
+        </div>
+        <select id="genre-select">
+            <option value="money">Money</option>
+            <option value="health">Health</option>
+            <option value="success">Success</option>
+            <option value="happiness">Happiness</option>
+            <option value="healing">Healing</option>
+        </select>
+        <ul id="track-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
