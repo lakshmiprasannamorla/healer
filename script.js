@@ -7,7 +7,8 @@ const tracks = {
         { title: "Make It Happen Girl", artist: "LP", src: "Make It Happen Girl.mp3", cover: "img.jpeg" },
         { title: "Golden Girl: Unstoppable", artist: "LP", src: "Golden Girl_ Unstoppable.mp3", cover: "img.jpeg" },
         { title: "Excited in South Korea", artist: "LP", src: "Excited in South Korea.mp3", cover: "img.jpeg" },
-        { title: "Globetrotting Dreams", artist: "LP", src: "Globetrotting Dreams.mp3", cover: "img.jpeg" }
+        { title: "Globetrotting Dreams", artist: "LP", src: "Globetrotting Dreams.mp3", cover: "img.jpeg" },
+        { title: "Money Magnet-2", artist: "LP", src: "Money Magnet-2.mp3", cover: "img.jpeg" }
     ],
     health: [
         { title: "Healing Sounds", artist: "LP", src: "Healing Sounds.mp3", cover: "img.jpeg" },
@@ -22,14 +23,17 @@ const tracks = {
         { title: "Golden Girl", artist: "LP", src: "Golden Girl.mp3", cover: "img.jpeg" },
         { title: "Good Vibes Only", artist: "LP", src: "Good Vibes Only.mp3", cover: "img.jpeg" },
         { title: "Million Dreams", artist: "LP", src: "Million Dreams.mp3", cover: "img.jpeg" },
-        { title: "Unstoppable Aura", artist: "LP", src: "Unstoppable Aura.mp3", cover: "img.jpeg" }
+        { title: "Unstoppable Aura", artist: "LP", src: "Unstoppable Aura.mp3", cover: "img.jpeg" },
+        { title: "Golden Era", artist: "LP", src: "Golden Era.mp3", cover: "img.jpeg" },
+        { title: "Always Lucky", artist: "LP", src: "Always Lucky.mp3", cover: "img.jpeg" }
     ],
     happiness: [
-        { title: "Feel Good", artist: "LP", src: "Feel Good.mp3", cover: "img.jpeg" },
+        { title: "Sunny Vibes", artist: "LP", src: "Sunny Vibes.mp3", cover: "img.jpeg" },
         { title: "Everyday is a New Day", artist: "LP", src: "Everyday is a New Day.mp3", cover: "img.jpeg" },
         { title: "Let's Celebrate", artist: "LP", src: "Let's Celebrate.mp3", cover: "img.jpeg" },
-        { title: "Happy Life", artist: "LP", src: "Happy Life.mp3", cover: "cover2.jpg" },
-        { title: "Good Morning Sunshine", artist: "LP", src: "Good Morning Sunshine.mp3", cover: "img.jpeg" }
+        { title: "Happy Life", artist: "LP", src: "Happy Life.mp3", cover: "img.jpeg" },
+        { title: "Good Morning Sunshine", artist: "LP", src: "Good Morning Sunshine.mp3", cover: "img.jpeg" },
+        { title: "Right Time Right Place", artist: "LP", src: "Right Time Right Place.mp3", cover: "img.jpeg" }
     ],
     healing: [
         { title: "희망의 빛", artist: "LP", src: "희망의 빛.mp3", cover: "img.jpeg" },
@@ -38,8 +42,23 @@ const tracks = {
         { title: "Flow of Abundance", artist: "LP", src: "Flow of Abundance.mp3", cover: "img.jpeg" },
         { title: "Golden Girl: Unstoppable", artist: "LP", src: "Golden Girl_ Unstoppable.mp3", cover: "img.jpeg" },
         { title: "Excited in South Korea", artist: "LP", src: "Excited in South Korea.mp3", cover: "img.jpeg" },
-        { title: "Offer Day", artist: "LP", src: "Offer Day.mp3", cover: "cover2.jpg" }
-    ]
+        { title: "Offer Day", artist: "LP", src: "Offer Day.mp3", cover: "img.jpeg" }
+    ],
+    japanese: [
+        { title: "夢の億万長者", artist: "LP", src: "夢の億万長者.mp3", cover: "img.jpeg" },
+        { title: "21歳で億万長者 (21-sai de Okuman Chōja)", artist: "LP", src: "21歳で億万長者 (21-sai de Okuman Chōja).mp3", cover: "img.jpeg" },
+        { title: "望むすべて", artist: "LP", src: "望むすべて.mp3", cover: "img.jpeg" },
+        { title: "未来へのダッシュ", artist: "LP", src: "未来へのダッシュ.mp3", cover: "img.jpeg" },
+        { title: "attention", artist: "LP", src: "attention.mp3", cover: "img.jpeg" },
+        { title: "歓びの声", artist: "LP", src: "歓びの声.mp3", cover: "img.jpeg" },
+        { title: "Watashi no yume ga ima kanau", artist: "LP", src: "Watashi no yume ga ima kanau.mp3", cover: "img.jpeg" }
+    ],
+    korean: [
+        { title: "스무 살의 꿈", artist: "LP", src: "스무 살의 꿈.mp3", cover: "img.jpeg" },
+        { title: "나의 마법 (My Magic)", artist: "LP", src: "나의 마법 (My Magic).mp3", cover: "img.jpeg" },
+        { title: "나의 미래는 내가 만들어가", artist: "LP", src: "나의 미래는 내가 만들어가.mp3", cover: "img.jpeg" },
+        { title: "_내가 만들어가", artist: "LP", src: "_내가 만들어가.mp3", cover: "img.jpeg" },
+    ],
 };
 const trackListElement = document.getElementById('track-list');
 const audioPlayer = document.getElementById('audio-player');
